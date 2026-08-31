@@ -1,0 +1,346 @@
+@media screen and (max-width: 1400px) {
+  .home__photo {
+    width: 40rem;
+    height: 40rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .home__photo {
+    width: 30rem;
+    height: 30rem;
+  }
+  .language-card {
+    width: 230px;
+  }
+  .project-image img {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .nav__logo {
+    font-size: 5rem;
+  }
+  .menu__item {
+    margin-right: 2rem;
+  }
+  .home__photo {
+    width: 30rem;
+    height: 30rem;
+  }
+  .home__title {
+    font-size: 3rem;
+  }
+  .contact-wrapper {
+    flex-direction: column;
+    gap: 4rem;
+    padding: 3rem;
+  }
+
+  .contact-info {
+    padding-right: 0;
+  }
+
+  .contact-title {
+    font-size: 3.2rem;
+  }
+
+  .contact-description {
+    max-width: 100%;
+  }
+  .project-modal {
+    padding: 1.6rem;
+  }
+
+  .project-modal-info {
+    padding: 2rem 2.4rem 0 2.4rem;
+  }
+
+  .project-modal-features {
+    padding: 0 2.4rem;
+  }
+
+  .project-modal-challenges {
+    padding: 0 2.4rem;
+  }
+
+  .project-modal-actions {
+    padding: 1.6rem 2.4rem 2.4rem 2.4rem;
+  }
+
+  .project-modal-title {
+    font-size: 2.2rem;
+  }
+  .project-image img {
+    height: 186px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav__toggle-icon {
+    display: flex;
+  }
+  .menu {
+    position: absolute;
+    flex-direction: column;
+    top: 100%;
+    width: 100%;
+    right: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    transition: all 250ms ease-in;
+    height: 0;
+    overflow: hidden;
+  }
+  .menu__item {
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+  }
+  .menu__item:first-child {
+    margin-top: 2rem;
+  }
+  .menu__item:last-child {
+    margin-bottom: 0rem;
+  }
+  .menu--open {
+    height: 24rem;
+  }
+  .cover {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 10%);
+    z-index: -1;
+    opacity: 0;
+    transition: all 250ms ease-in;
+  }
+  .cover-show {
+    z-index: 1;
+    opacity: 1;
+  }
+  .home {
+    background-image: none;
+    height: auto;
+  }
+  .home__content {
+    text-align: center;
+  }
+  .home__links-wrapper {
+    justify-content: center;
+  }
+  .home__photo {
+    margin: 0 auto;
+  }
+  .home {
+    margin-top: 5rem;
+  }
+  .home .row {
+    flex-direction: column-reverse;
+  }
+  .projects-wrapper {
+    flex-wrap: wrap;
+  }
+  .project-image img {
+    height: 245px;
+  }
+  .project-modal {
+    padding: 1.2rem;
+    align-items: flex-end;
+  }
+
+  .project-modal-inner {
+    max-height: 95vh;
+    border-radius: 1.6rem 1.6rem 0 0;
+    animation: modalSlideUpMobile 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .project-modal-info {
+    padding: 1.6rem 1.6rem 0 1.6rem;
+  }
+
+  .project-modal-features {
+    padding: 0 1.6rem;
+    margin-top: 1.6rem;
+  }
+
+  .project-modal-challenges {
+    padding: 0 1.6rem;
+    margin-top: 1.6rem;
+  }
+
+  .project-modal-actions {
+    padding: 1.6rem;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .project-modal-buttons {
+    justify-content: center;
+  }
+
+  .project-modal-close {
+    display: flex;
+    justify-content: center;
+  }
+
+  .project-modal-title {
+    font-size: 1.8rem;
+  }
+
+  .project-modal-desc {
+    font-size: 1.3rem;
+  }
+
+  .project-modal-text {
+    font-size: 1.3rem;
+    padding: 1rem 1.2rem;
+  }
+
+  .project-modal-list li {
+    font-size: 1.1rem;
+    padding: 0.4rem 1.5rem;
+  }
+
+  .btn-demo,
+  .btn-github {
+    padding: 0.7rem 1.8rem;
+    font-size: 1.1rem;
+    flex: 1;
+    justify-content: center;
+  }
+
+  .btn-close {
+    padding: 0.6rem 1.4rem;
+    font-size: 1.1rem;
+  }
+  @keyframes modalSlideUpMobile {
+    from {
+      opacity: 0;
+      transform: translateY(4rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .home__username,
+  .home__caption {
+    font-size: 1.5rem;
+  }
+  .home__title {
+    font-size: 2rem;
+  }
+  .home__photo {
+    width: 28rem;
+    height: 28rem;
+    border-width: 1rem;
+  }
+  .language-card {
+    width: 185px;
+  }
+  .footer {
+    margin-top: 2rem;
+    padding-bottom: 2.5rem;
+  }
+  .contact-wrapper {
+    padding: 1rem;
+    gap: 3rem;
+    border-radius: 1.6rem;
+  }
+
+  .contact-title {
+    font-size: 2.6rem;
+  }
+
+  .contact-description {
+    font-size: 1.4rem;
+  }
+
+  .contact-form {
+    padding: 2rem;
+  }
+
+  .contact-item {
+    gap: 1.2rem;
+  }
+
+  .contact-icon {
+    width: 4.2rem;
+    height: 4.2rem;
+    min-width: 4.2rem;
+  }
+
+  .contact-icon svg {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .social-link {
+    width: 4.2rem;
+    height: 4.2rem;
+  }
+
+  .social-link svg {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .form-input,
+  .form-textarea {
+    padding: 1.2rem 1.4rem;
+    font-size: 1.3rem;
+  }
+
+  .btn-submit {
+    padding: 1.4rem;
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 480px) {
+  .language-card {
+    width: 230px;
+  }
+  .about-wrapper {
+    padding: 4rem;
+  }
+  /* .project-image {
+    aspect-ratio: 16/9;
+  } */
+  .project-image img {
+    height: 170px;
+  }
+  .project-modal {
+    padding: 0.8rem;
+  }
+
+  .project-modal-title {
+    font-size: 1.6rem;
+  }
+
+  .project-modal-desc {
+    font-size: 1.2rem;
+  }
+
+  .project-modal-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn-demo,
+  .btn-github {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .project-modal-actions {
+    gap: 0.8rem;
+  }
+}

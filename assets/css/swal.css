@@ -1,0 +1,125 @@
+@import "./font.css";
+
+.my-swal-popup {
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  font-family: "vazir", "Segoe UI", sans-serif;
+  direction: rtl;
+  padding: 1.5rem;
+  width: 420px;
+  background: #0f172ae8;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(16px);
+}
+
+.my-swal-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #f57f17;
+  margin-bottom: 8px;
+  font-family: "vazir", sans-serif;
+}
+
+.my-swal-content {
+  font-size: 15px;
+  color: #94a3b8;
+  line-height: 1.8;
+  font-family: "vazir", sans-serif;
+}
+
+.my-swal-confirm {
+  border-radius: 10px;
+  padding: 12px 35px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "vazir", sans-serif;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(135deg, #0ea5e9 0%, #0891b2 100%);
+  color: white;
+  box-shadow: 0 4px 20px rgba(14, 165, 233, 0.2);
+}
+
+.my-swal-confirm:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 8px 25px rgba(14, 165, 233, 0.4);
+}
+
+.my-swal-confirm:active {
+  transform: scale(0.95);
+}
+
+.my-swal-cancel {
+  border-radius: 10px;
+  padding: 12px 35px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "vazir", sans-serif;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background: #e74c3c;
+  color: white;
+}
+
+.my-swal-cancel:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 8px 25px rgba(231, 76, 60, 0.4);
+}
+
+.my-swal-icon {
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.my-swal-popup {
+  animation: swalFadeIn 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.my-swal-toast {
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  font-family: "vazir", sans-serif;
+  direction: rtl;
+  padding: 0.8rem 1.2rem;
+  background: #0f172ae8;
+  backdrop-filter: blur(12px);
+  border-right: 4px solid #0ea5e9;
+  color: #e2e8f0;
+}
+
+.my-swal-toast-success {
+  border-right-color: #22c55e;
+}
+
+.my-swal-toast-error {
+  border-right-color: #ef4444;
+}
+
+.my-swal-toast-warning {
+  border-right-color: #f57f17;
+}
+
+.my-swal-toast-info {
+  border-right-color: #0ea5e9;
+}
+
+.swal2-timer-progress-bar {
+  background: linear-gradient(90deg, #0ea5e9, #0891b2);
+  height: 3px;
+}
+
+.swal2-backdrop {
+  backdrop-filter: blur(8px);
+  background: rgba(15, 23, 42, 0.85);
+}
+
+@keyframes swalFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8) translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}

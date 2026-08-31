@@ -1,0 +1,100 @@
+.header {
+  background: rgba(30, 41, 59, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 0.5rem 4rem rgba(10, 190, 173, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  z-index: 10;
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  color: var(--primary-color);
+  font-family: "poppins Black";
+  font-size: 6rem;
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+
+.menu__item {
+  margin-right: 4rem;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__link {
+  display: inline-block;
+  color: var(--app-bg-color);
+  font-family: "poppins Medium";
+  transition: color 0.3s ease;
+}
+
+.menu__link:hover {
+  color: var(--primary-color);
+}
+
+.active {
+  color: var(--primary-color);
+}
+
+.nav__toggle-icon {
+  display: none;
+  width: 5rem;
+  height: 5rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.nav_toggle-line {
+  position: relative;
+}
+
+.nav_toggle-line,
+.nav_toggle-line::before,
+.nav_toggle-line::after {
+  content: "";
+  width: 5rem;
+  height: 0.4rem;
+  border-radius: 2rem;
+  background-color: var(--primary-color);
+  transition: all 200ms ease-in;
+}
+
+.nav_toggle-line::before {
+  position: absolute;
+  top: 1rem;
+}
+
+.nav_toggle-line::after {
+  position: absolute;
+  bottom: 1rem;
+}
+
+.nav-toggle-open .nav_toggle-line::before {
+  transform: translateY(-1rem) rotate(-45deg);
+}
+
+.nav-toggle-open .nav_toggle-line::after {
+  transform: translateY(1rem) rotate(45deg);
+}
+
+.nav-toggle-open .nav_toggle-line {
+  background-color: transparent;
+}

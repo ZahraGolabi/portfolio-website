@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <h1 class="nav__logo">ZG.</h1>
+          <ul class="menu">
+            <li data-section="home" class="menu__item">
+              <a href="index.html" class="menu__link active">Home</a>
+            </li>
+            <li data-section="about-us" class="menu__item">
+              <a href="about.html" class="menu__link">About</a>
+            </li>
+            <li data-section="skills" class="menu__item">
+              <a href="skill.html" class="menu__link">Skill</a>
+            </li>
+            <li data-section="project" class="menu__item">
+              <a href="project.html" class="menu__link">Projects</a>
+            </li>
+            <li data-section="footer" class="menu__item">
+              <a href="contact.html" class="menu__link">Contact</a>
+            </li>
+          </ul>
+          <div class="nav__toggle-icon">
+            <div class="nav_toggle-line"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="home">
+        <div class="container">
+          <div class="row alig-items-center">
+            <div class="col-12 col-sm-12 col-md-7 col-lg-8">
+              <div class="home__content">
+                <h3 class="home__username">
+                  Hello , IM
+                  <span>Zahra Golabi</span>
+                </h3>
+                <h3 class="home__title">Junior Front-End Developer</h3>
+                <p class="home__caption">
+                  Learning Front-End Development and turning ideas into
+                  responsive, modern websites.
+                </p>
+                <div class="home__links-wrapper">
+                  <a href="./project.html" class="home-link btn">View my work</a>
+                  <a href="./skill.html" class="home-link btn app-orange--btn"
+                    >Get Resume</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-5 col-lg-4">
+              <div class="home__photo"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="sliders">
+      <div class="swiper languages-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="language-card">
+              <span class="language-name">Html</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="language-card">
+              <span class="language-name">Css</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="language-card">
+              <span class="language-name">JavaScript</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="language-card">
+              <span class="language-name">Tailwind</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="language-card">
+              <span class="language-name">React</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  </body>
+</html>

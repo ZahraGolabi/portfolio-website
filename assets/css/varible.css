@@ -1,0 +1,57 @@
+:root {
+  --primary-color: #0abead;
+  --primary-hover: #089b8a;
+  --primary-dark: #089b8a;
+  --primary-light: rgba(10, 190, 173, 0.08);
+  
+  --text-white: #ffffff;
+  --text-dark: #f8fafc;
+  --text-light: #e2e8f0;
+  --text-muted: #94a3b8;
+  --text-color: #333333;
+  
+  --app-bg: #fff;
+  --app-bg-color: #fff;
+  
+  --border-color: rgba(0, 0, 0, 0.06);
+  --border-input: rgba(255, 255, 255, 0.08);
+  --border-white: rgba(255, 255, 255, 0.06);
+  
+  --bg-card: rgba(255, 255, 255, 0.04);
+  --bg-form: rgba(30, 41, 59, 0.6);
+  --bg-input: rgba(15, 23, 42, 0.6);
+  --bg-white: rgba(255, 255, 255, 0.08);
+  
+  --shadow-primary: rgba(10, 190, 173, 0.2);
+  --shadow-primary-hover: rgba(10, 190, 173, 0.3);
+  --shadow-color: rgba(10, 190, 173, 0.12);
+  
+  --placeholder-color: #64748b;
+  --blur-amount: 10px;
+  
+  --radius-sm: 1rem;
+  --radius-md: 1.2rem;
+  --radius-lg: 1.6rem;
+  --radius-xl: 2.4rem;
+  --radius-btn: 4rem;
+  --radius-tag: 50px;
+  --radius-circle: 100%;
+  --radius-card: 1.6rem;
+  
+  --spacing-xs: 0.8rem;
+  --spacing-sm: 1.2rem;
+  --spacing-md: 1.6rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 2.8rem;
+  --spacing-2xl: 3.2rem;
+  --spacing-3xl: 4rem;
+  --spacing-4xl: 5rem;
+  --spacing-5xl: 6rem;
+  
+  --font-xs: 1.4rem;
+  --font-sm: 1.6rem;
+  --font-xl: 4.2rem;
+  
+  --transition-fast: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 0.3s ease;
+}

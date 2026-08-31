@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/swal.css" />
+  </head>
+  <body>
+    <svg class="svg">
+      <symbol
+        id="email"
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+      >
+        <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+      </symbol>
+      <symbol
+        id="linkdin"
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+      >
+        <path
+          d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+        ></path>
+        <rect width="4" height="12" x="2" y="9"></rect>
+        <circle cx="4" cy="4" r="2"></circle>
+      </symbol>
+      <symbol
+        id="github"
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+      >
+        <path
+          d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+        ></path>
+        <path d="M9 18c-4.51 2-5-2-7-2"></path>
+      </symbol>
+    </svg>
+
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <h1 class="nav__logo">ZG.</h1>
+          <ul class="menu">
+            <li data-section="home" class="menu__item">
+              <a href="index.html" class="menu__link active">Home</a>
+            </li>
+            <li data-section="about-us" class="menu__item">
+              <a href="about.html" class="menu__link">About</a>
+            </li>
+            <li data-section="skills" class="menu__item">
+              <a href="skill.html" class="menu__link">Skill</a>
+            </li>
+            <li data-section="project" class="menu__item">
+              <a href="project.html" class="menu__link">Projects</a>
+            </li>
+            <li data-section="footer" class="menu__item">
+              <a href="contact.html" class="menu__link">Contact</a>
+            </li>
+          </ul>
+          <div class="nav__toggle-icon">
+            <div class="nav_toggle-line"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main"></main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="section-head">
+          <h3 class="section__head-title">Contact</h3>
+          <span class="section__head-line"></span>
+        </div>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <div class="contact-header">
+              <h3 class="contact-title">
+                Let's build something amazing together.
+              </h3>
+              <p class="contact-description">
+                Great successes begin with a simple talk, and I'm always in for
+                collaboration, fresh ideas, and meaningful challenges.
+              </p>
+            </div>
+
+            <div class="contact-details">
+              <div class="contact-social">
+                <a
+                  href="https://www.linkedin.com/in/zahra-golabi/"
+                  class="social-link"
+                >
+                  <svg>
+                    <use href="#linkdin"></use>
+                  </svg>
+                </a>
+                <a href="https://github.com/ZahraGolabi" class="social-link">
+                  <svg>
+                    <use href="#github"></use>
+                  </svg>
+                </a>
+                <a href="mailto:zgholabi@gmail.com" class="social-link">
+                  <svg>
+                    <use href="#email"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form-wrapper">
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-input"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="You@example.com"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-textarea"
+                  placeholder="How I Can Help You?"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SweetAlert2 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11">
+    </script>
+
+    <!-- EmailJS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+
+    <script src="./assets/js/config.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

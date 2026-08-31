@@ -1,0 +1,54 @@
+@import "./font.css";
+
+.sliders {
+  padding: 2rem 0 1rem;
+  position: relative;
+  overflow: hidden;
+  height: 100px;
+  margin-top: 10rem;
+}
+.swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+.languages-swiper {
+  padding: 2rem 0.5rem 3.5rem;
+  overflow: hidden;
+}
+
+.language-card {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 1.2rem;
+  padding: 1.4rem 1.2rem;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: default;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  margin-top: 1rem;
+}
+
+.language-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--primary-color);
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 30px rgba(10, 190, 173, 0.1);
+}
+
+.language-name {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 0.5px;
+  font-family: "poppins Medium", sans-serif;
+}
+
+.language-card:hover .language-name {
+  color: #ffffff;
+}
+
+.languages-swiper .swiper-pagination {
+  bottom: 0;
+}
