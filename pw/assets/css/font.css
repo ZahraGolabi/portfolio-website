@@ -1,26 +1,26 @@
 @font-face {
     font-family: "poppins";
-    src: url("/assets/fonts/Poppins-Regular.ttf") format("truetype");
+    src: url("../fonts/Poppins-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "poppins Medium";
-    src: url("/assets/fonts/Poppins-Medium.ttf") format("truetype");
+    src: url("../fonts/Poppins-Medium.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "poppins SemiBold";
-    src: url("/assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+    src: url("../fonts/Poppins-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "poppins Black";
-    src: url("/assets/fonts/Poppins-Black.ttf") format("truetype");
+    src: url("../fonts/Poppins-Black.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "poppins Blold";
-    src: url("/assets/fonts/Poppins-Bold.ttf") format("truetype");
+    src: url("../fonts/Poppins-Bold.ttf") format("truetype");
 }
 @font-face {
     font-family: "vazir";

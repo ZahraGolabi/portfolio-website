@@ -163,7 +163,7 @@ body {
   height: 50rem;
   border-radius: var(--radius-circle);
   background-color: #bbb;
-  background-image: url(/assets/img/profile1.jpg);
+  background-image: url(../img/profile1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
