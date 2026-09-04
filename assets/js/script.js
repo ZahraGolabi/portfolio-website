@@ -62,8 +62,8 @@ const animateSkillBars = () => {
       }
     }
   });
-  setTimeout(animateBars, 500);
-  window.addEventListener("scroll", animateBars);
+  setTimeout(animateSkillBars, 500)
+  window.addEventListener("scroll", animateSkillBars);
   currentPageHandler();
 };
 

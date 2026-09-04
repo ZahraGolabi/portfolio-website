@@ -84,7 +84,7 @@
   .menu {
     position: absolute;
     flex-direction: column;
-    top: 100%;
+    top: 0%;
     width: 100%;
     right: 0;
     left: 0;
@@ -94,6 +94,13 @@
     transition: all 250ms ease-in;
     height: 0;
     overflow: hidden;
+  background: linear-gradient(135deg, #0f172a 0%, #1a2332 50%, #0f172a 100%);
+  /* border-radius: 5rem; */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(10, 190, 173, 0.2);
+  box-shadow: 0 0 3rem rgba(10, 190, 173, 0.1);
+
   }
   .menu__item {
     margin-right: 0rem;
@@ -107,6 +114,7 @@
   }
   .menu--open {
     height: 24rem;
+    top: 100%;
   }
   .cover {
     position: fixed;
@@ -218,6 +226,11 @@
     padding: 0.6rem 1.4rem;
     font-size: 1.1rem;
   }
+
+  .contact-info{
+    padding: 0;
+  }
+
   @keyframes modalSlideUpMobile {
     from {
       opacity: 0;
